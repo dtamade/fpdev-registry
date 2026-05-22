@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-01-06T00:00:00Z",
+  "toolchains": [
+    {
+      "target": "win64",
+      "componentType": "binutils",
+      "version": "2.40",
+      "hostPlatforms": [
+        {"os": "windows", "arch": "x86_64"},
+        {"os": "linux", "arch": "x86_64"},
+        {"os": "darwin", "arch": "x86_64"}
+      ],
+      "urls": [
+        "https://github.com/dtamade/fpdev-repo/releases/download/cross-v1.0/win64-binutils-2.40-test.zip"
+      ],
+      "sha256": "5daea91134013a933f882ce3ed34712af1ffab947845a33498c0dffc7ee0b221",
+      "archiveFormat": "zip",
+      "binutilsPrefix": "x86_64-w64-mingw32-",
+      "description": "Windows 64-bit cross-compilation binutils"
+    },
+    {
+      "target": "win64",
+      "componentType": "libraries",
+      "version": "1.0",
+      "hostPlatforms": [
+        {"os": "windows", "arch": "x86_64"},
+        {"os": "linux", "arch": "x86_64"},
+        {"os": "darwin", "arch": "x86_64"}
+      ],
+      "urls": [
+        "https://github.com/dtamade/fpdev-repo/releases/download/cross-v1.0/win64-libraries-1.0-test.zip"
+      ],
+      "sha256": "c78aa77e387b00b0ad3d113a5096b12db8481559d88a3877ca9f8ae3ddc32114",
+      "archiveFormat": "zip",
+      "description": "Windows 64-bit system libraries for cross-compilation"
+    }
+  ]
+}
