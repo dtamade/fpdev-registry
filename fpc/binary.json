@@ -1,0 +1,92 @@
+{
+  "3.2.2": {
+    "linux-x86_64": {
+      "mirrors": {
+        "github": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-linux-x86_64.tar.gz",
+        "gitee": "https://gitee.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-linux-x86_64.tar.gz"
+      },
+      "hash": {"sha256": "46c083c7308a6fb978f0244c0e2e7c4217210200232923f777fc4f0483ca1caf"},
+      "size": 85384375,
+      "install_method": "nested-tar"
+    },
+    "windows-x86_64": {
+      "mirrors": {
+        "github": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-windows-x86_64.zip",
+        "gitee": "https://gitee.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-windows-x86_64.zip"
+      },
+      "hash": {"sha256": "7182b02643594b082997f1c3af25171ffb85e89c57af1d036b26a1339f749c98"},
+      "size": 86963689,
+      "install_method": "unzip"
+    },
+    "darwin-x86_64": {
+      "mirrors": {
+        "github": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-darwin-x86_64.tar.gz",
+        "gitee": "https://gitee.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-darwin-x86_64.tar.gz"
+      },
+      "hash": {"sha256": "d0fab36b784273c8c5d79f03c0b5ca29ba282386e3c54a4161fbebf9796659e3"},
+      "size": 134990974,
+      "install_method": "nested-tar"
+    },
+    "darwin-aarch64": {
+      "mirrors": {
+        "github": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-darwin-aarch64.tar.gz",
+        "gitee": "https://gitee.com/dtamade/fpdev-fpc/releases/download/v3.2.2/fpc-3.2.2-darwin-aarch64.tar.gz"
+      },
+      "hash": {"sha256": "f3ec0009d4389633be740f8428cd08f6f2ee2381addde846d1afa5ed8b82a86f"},
+      "size": 133797671,
+      "install_method": "nested-tar"
+    }
+  },
+  "3.2.0": {
+    "linux-x86_64": {
+      "mirrors": {
+        "github": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.0/fpc-3.2.0-x86_64-linux.tar"
+      },
+      "hash": {"sha256": "d19252e6cfe52f1217f4822a548ee699eaa7e044807aaf8429a0532cb7e4cb3d"},
+      "size": 84336640,
+      "install_method": "nested-tar"
+    },
+    "windows-i386": {
+      "mirrors": {
+        "github": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.0/fpc-3.2.0.i386-win32.exe"
+      },
+      "hash": {"sha256": "1dad1ec72d7fdace2612bb3ea25e3209cd15d655fc85d3f94fb0bf2fe47611c8"},
+      "size": 53136366,
+      "install_method": "installer"
+    },
+    "darwin-x86_64": {
+      "mirrors": {
+        "github": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.2.0/fpc-3.2.0.intel-macosx.dmg"
+      },
+      "hash": {"sha256": "77a55f4ab985124bb550e6fa80dfbb2c3ee449c41261325f2623e01a6afd13ad"},
+      "size": 169412171,
+      "install_method": "dmg"
+    }
+  },
+  "3.0.4": {
+    "linux-x86_64": {
+      "mirrors": {
+        "github": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.0.4/fpc-3.0.4.x86_64-linux.tar"
+      },
+      "hash": {"sha256": "7e965baf13c9822a0ff39e7bbfa040bd5599e94d0f3338f1ac4efa989081fd77"},
+      "size": 56842240,
+      "install_method": "nested-tar"
+    },
+    "windows-i386": {
+      "mirrors": {
+        "github": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.0.4/fpc-3.0.4.i386-win32.exe"
+      },
+      "hash": {"sha256": "1f6323d3362eca1f0b2f63160c2329205df0415f6aa9d8e42910629aaaa823bb"},
+      "size": 40156912,
+      "install_method": "installer"
+    },
+    "darwin-x86_64": {
+      "mirrors": {
+        "github": "https://github.com/dtamade/fpdev-fpc/releases/download/v3.0.4/fpc-3.0.4a.intel-macosx.dmg"
+      },
+      "hash": {"sha256": "56b870fbce8dc9b098ecff3c585f366ad3e156ca32a6bf3b20091accfb252616"},
+      "size": 108371671,
+      "install_method": "dmg"
+    }
+  }
+}
